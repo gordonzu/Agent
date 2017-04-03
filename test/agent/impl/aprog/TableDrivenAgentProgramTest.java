@@ -1,4 +1,4 @@
-package agent.impl;
+package agent.impl.aprog;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,11 +10,14 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import agent.Action;
-import agent.Percept;
-import agent.impl.AbstractAgent;
-import agent.impl.DynamicAction;
-import agent.impl.aprog.TableDrivenAgentProgram;
+import agent.impl.MockAgent;
+import src.agent.Action;
+import src.agent.Percept;
+import src.agent.impl.DynamicPercept;
+import src.agent.impl.NoOpAction;
+import src.agent.impl.AbstractAgent;
+import src.agent.impl.DynamicAction;
+import src.agent.impl.aprog.TableDrivenAgentProgram;
 
 public class TableDrivenAgentProgramTest {
     

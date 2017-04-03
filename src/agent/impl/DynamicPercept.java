@@ -1,6 +1,6 @@
-package agent.impl;
+package src.agent.impl;
 
-import agent.Percept;
+import src.agent.Percept;
 
 public class DynamicPercept extends ObjectWithDynamicAttributes implements Percept {
     

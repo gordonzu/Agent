@@ -1,4 +1,4 @@
-package agent;
+package src.agent;
 
 public interface Agent extends EnvironmentObject {
 	  

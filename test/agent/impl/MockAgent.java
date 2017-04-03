@@ -1,7 +1,7 @@
 package agent.impl;
 
-import agent.AgentProgram;
-import agent.impl.AbstractAgent;
+import src.agent.AgentProgram;
+import src.agent.impl.AbstractAgent;
 
 public class MockAgent extends AbstractAgent {
 	  public MockAgent() {

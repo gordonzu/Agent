@@ -1,9 +1,9 @@
-package agent.impl;
+package src.agent.impl;
 
-import agent.Action;
-import agent.Agent;
-import agent.AgentProgram;
-import agent.Percept;
+import src.agent.Action;
+import src.agent.Agent;
+import src.agent.AgentProgram;
+import src.agent.Percept;
 
 public abstract class AbstractAgent implements Agent {
 

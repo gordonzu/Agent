@@ -1,4 +1,4 @@
-package agent.impl;
+package src.agent.impl;
 
 public class NoOpAction extends DynamicAction {
 

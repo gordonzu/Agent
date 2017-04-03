@@ -1,6 +1,6 @@
-package agent.impl;
+package src.agent.impl;
 
-import agent.Action;
+import src.agent.Action;
 
 public class DynamicAction extends ObjectWithDynamicAttributes implements Action {
 	

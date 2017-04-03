@@ -1,14 +1,14 @@
-package agent.impl.aprog;
+package src.agent.impl.aprog;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import agent.Action;
-import agent.AgentProgram;
-import agent.Percept;
-import agent.impl.NoOpAction;
-import util.datastructure.Table;
+import src.agent.Action;
+import src.agent.AgentProgram;
+import src.agent.Percept;
+import src.agent.impl.NoOpAction;
+import src.util.datastructure.Table;
 
 
 public class TableDrivenAgentProgram implements AgentProgram {
