@@ -6,7 +6,7 @@ package search;
 //import aima.test.core.unit.search.csp.TreeCSPSolverTest;
 import search.framework.MetricsTest;
 import search.framework.NodeTest;
-//import aima.test.core.unit.search.framework.SolutionCheckerTest;
+import search.framework.SolutionCheckerTest;
 //import aima.test.core.unit.search.informed.AStarSearchTest;
 //import aima.test.core.unit.search.informed.GreedyBestFirstSearchTest;
 //import aima.test.core.unit.search.informed.RecursiveBestFirstSearchTest;
@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
-@Suite.SuiteClasses({ NodeTest.class, MetricsTest.class })
+@Suite.SuiteClasses({ MetricsTest.class, NodeTest.class, SolutionCheckerTest.class})
 
 public class SearchTestSuite {
 
