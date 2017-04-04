@@ -4,7 +4,7 @@ package search;
 //import aima.test.core.unit.search.csp.CSPTest;
 //import aima.test.core.unit.search.csp.MapCSPTest;
 //import aima.test.core.unit.search.csp.TreeCSPSolverTest;
-//import aima.test.core.unit.search.framework.MetricsTest;
+import search.framework.MetricsTest;
 import search.framework.NodeTest;
 //import aima.test.core.unit.search.framework.SolutionCheckerTest;
 //import aima.test.core.unit.search.informed.AStarSearchTest;
@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
-@Suite.SuiteClasses({ NodeTest.class })
+@Suite.SuiteClasses({ NodeTest.class, MetricsTest.class })
 
 public class SearchTestSuite {
 
