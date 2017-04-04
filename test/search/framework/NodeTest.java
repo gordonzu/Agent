@@ -18,7 +18,7 @@ public class NodeTest {
         Assert.assertFalse(node2.isRootNode());
         Assert.assertEquals(node1, node2.getParent());
     }
-/*
+
     @Test
     public void testGetPathFromRoot() {
         Node node1 = new Node("state1");
@@ -29,7 +29,7 @@ public class NodeTest {
         Assert.assertEquals(node2, path.get(1));
         Assert.assertEquals(node3, path.get(2));
     }
-*/
+
 }
 
 
